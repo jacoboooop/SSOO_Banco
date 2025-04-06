@@ -1,0 +1,86 @@
+
+2025-04-06 19:42:28 ---- Se ha iniciado el menu
+2025-04-06 19:42:29 ---- Se esta intentando hacer login
+2025-04-06 19:42:31 ---- Se ha hecho login
+2025-04-06 19:42:37 ---- Se esta intentando hacer login
+2025-04-06 19:42:41 ---- Se ha hecho login
+2025-04-06 19:42:45 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:42:45 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:42:45 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:42:46 ---- Se esta esperando a que el semaforo para hacer un retiro
+2025-04-06 19:43:32 ---- Se ha realizado un deposito de: 20.000000
+2025-04-06 19:43:32 ---- Se ha liberado el semaforo
+2025-04-06 19:43:32 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:43:32 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:43:32 ---- Se leyo el saldo correctamente
+2025-04-06 19:45:42 ---- Se ha liberado el semaforo
+2025-04-06 19:45:42 ---- Se ha realizado un retiro de: -0.000000
+2025-04-06 19:45:44 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:45:44 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:45:44 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:45:44 ---- Se ha realizado un deposito de: 0.000000
+2025-04-06 19:45:44 ---- Se ha liberado el semaforo
+2025-04-06 19:45:49 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:45:49 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:45:49 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:46:51 ---- Se ha realizado un deposito de: 0.000000
+2025-04-06 19:46:51 ---- Se ha liberado el semaforo
+2025-04-06 19:47:40 ---- Se ha iniciado el menu
+2025-04-06 19:47:41 ---- Se esta intentando hacer login
+2025-04-06 19:47:45 ---- Se ha hecho login
+2025-04-06 19:49:04 ---- Se esta intentando hacer login
+2025-04-06 19:49:09 ---- Se ha hecho login
+2025-04-06 19:49:12 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:49:12 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:49:12 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:49:14 ---- Se ha realizado un deposito de: 2.000000
+2025-04-06 19:49:14 ---- Se ha liberado el semaforo
+2025-04-06 19:49:23 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:49:23 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:49:23 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:49:24 ---- Se ha realizado un deposito de: 2.000000
+2025-04-06 19:49:24 ---- Se ha liberado el semaforo
+2025-04-06 19:49:30 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:49:30 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:49:30 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:49:30 ---- Se ha realizado un deposito de: 10000.000000
+2025-04-06 19:49:30 ---- Se ha liberado el semaforo
+2025-04-06 19:53:06 ---- Se ha iniciado el menu
+2025-04-06 19:53:23 ---- Se esta intentando hacer login
+2025-04-06 19:53:24 ---- El usuario no existe
+2025-04-06 19:53:34 ---- Se esta intentando hacer login
+2025-04-06 19:53:38 ---- Se ha hecho login
+2025-04-06 19:53:41 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:53:41 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:53:41 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:53:43 ---- Se ha realizado un deposito de: 3000.000000
+2025-04-06 19:53:43 ---- Se ha liberado el semaforo
+2025-04-06 19:54:34 ---- Se esta intentando hacer login
+2025-04-06 19:54:37 ---- Se ha hecho login
+2025-04-06 19:54:38 ---- Se esta esperando a que el semaforo para hacer un deposito
+2025-04-06 19:54:38 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:54:38 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:54:41 ---- Se ha realizado un deposito de: 20.000000
+2025-04-06 19:54:41 ---- Se ha liberado el semaforo
+2025-04-06 19:55:19 ---- Se esta esperando a que el semaforo para hacer un retiro
+2025-04-06 19:55:19 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:55:19 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:55:23 ---- Se ha liberado el semaforo
+2025-04-06 19:55:24 ---- Se ha realizado un retiro de: -20.000000
+2025-04-06 19:56:24 ---- Se esta esperando a que el semaforo para hacer una transaccion
+2025-04-06 19:56:24 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:56:24 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:56:24 ---- Se esta abriendo el fichero para hacer una transaccion
+2025-04-06 19:57:02 ---- Se ha introducido en el archivo de usuarios el usuario con el nuevo saldo despues de la transaccion
+2025-04-06 19:57:02 ---- Se ha introducido en el archivo de usuarios el usuario con el nuevo saldo despues de la transaccion
+2025-04-06 19:57:02 ---- Se ha liberado el semaforo
+2025-04-06 19:57:02 ---- Se ha realizado una transferencia de: 20.000000
+2025-04-06 19:57:18 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 19:57:18 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 19:58:05 ---- Se esta registrando un nuevo usuario
+2025-04-06 19:58:55 ---- Se ha registrado un nuevo usuario
+2025-04-06 19:58:55 ---- Se ha hecho login
+2025-04-06 20:00:41 ---- Se esta leyendo el archivo de usuarios
+2025-04-06 20:00:41 ---- Se ha abierto el fichero para la lectura del saldo de usuario.
+2025-04-06 20:04:35 ---- El programa se ha APAGADO correctamente.
+2025-04-06 20:04:48 ---- El programa se ha APAGADO correctamente.
