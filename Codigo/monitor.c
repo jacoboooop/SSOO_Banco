@@ -130,12 +130,6 @@ void *TransferenciaConsecutivos(void *arg)
             // si supera 5 transacciones
             if (countTransferencia > configuracion.umbral_transferencias)
             {
-                /*
-                char mensaje[256];
-                snprintf(mensaje, sizeof(mensaje), "Anomalía detectada, demasiadas transferencias: Usuario %d en fecha %s realizó %d operaciones\n", idActual, fechaActual, countTransferencia);
-                escribirBanco(mensaje);
-                */
-
                 sem_wait(semaforo_log);
                 AgregarLog("Se ha notificado al banco de la anomalia");
                 sem_post(semaforo_log);
@@ -210,11 +204,6 @@ void *RetiroConsecutivos(void *arg)
             }
             if (countRetiros > configuracion.umbral_retiros)
             {
-                /*
-                char mensaje[256];
-                snprintf(mensaje, sizeof(mensaje), "Anomalía detectada, retiros sospechosos: Usuario %d en fecha %s realizó %d retiros\n", idActual, fechaActual, countRetiros);
-                escribirBanco((void*)mensaje);
-                */
                 sem_wait(semaforo_log);
                 AgregarLog("Se ha notificado al banco de la anomalia");
                 sem_post(semaforo_log);
@@ -252,12 +241,6 @@ void *RetiroSuperior(void *arg)
             {
                 if (strcmp(tipo, "retiro") == 0 && cantidad > configuracion.limite_retiro)
                 {
-                    /*
-                    char mensaje[256];
-                    snprintf(mensaje, sizeof(mensaje), "ALERTA retiro muy alto: Usuario %d en fecha %s realizó un retiro de %.2f\n", id, fecha, cantidad);
-                    escribirBanco((void*)mensaje);
-                    */
-
                     sem_wait(semaforo_log);
                     AgregarLog("Se ha notificado al banco de la anomalia");
                     sem_post(semaforo_log);
@@ -298,12 +281,6 @@ void *TransferenciaSuperior(void *arg)
                 if (strcmp(tipo, "transferencia") == 0 && cantidad > configuracion.limite_transferencia)
                 {
                     // paso el dato a banco
-                    /*
-                    char mensaje[256];
-                    snprintf(mensaje, sizeof(mensaje), "ALERTA tranferecia muy alta: Usuario %d en fecha %s realizó una transferencia de %.2f\n", id, fecha, cantidad);
-                    escribirBanco((void*)mensaje);
-                    */
-
                     sem_wait(semaforo_log);
                     AgregarLog("Se ha notificado al banco de la anomalia");
                     sem_post(semaforo_log);

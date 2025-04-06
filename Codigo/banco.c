@@ -61,12 +61,6 @@ int main()
     configuracion = leer_configuracion("../Archivos_datos/config.txt");
 
     //*******************************inicializo el monitor***********************************
-    /*if (mkfifo(FIFO_BANCO_MONITOR, 0666) == -1) {
-        if (errno != EEXIST) {
-            perror("Error al crear la FIFO");
-            exit(1);
-        }
-    }*/
 
     sem_wait(semaforo_log);
     AgregarLog("Creo el pipe y el proceso monitor");
@@ -104,19 +98,6 @@ int main()
     }
     else
     {
-        // padre
-        /*
-        int fifo_fd = open(FIFO_BANCO_MONITOR, O_RDONLY);
-        if (fifo_fd == -1) {
-            perror("Error al abrir la FIFO en banco");
-            exit(1);
-        }
-        char mensaje[256];
-        while (read(fifo_fd, mensaje, sizeof(mensaje)) > 0) {
-            printf("%s\n", mensaje);
-        }
-        close(fifo_fd);
-        */
 
         close(fd[1]); // solo va a leer
         pthread_create(&hiloPipe, NULL, escucharPipe, &fd);
